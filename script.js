@@ -63,7 +63,7 @@ const neverWonTableBody =  document.getElementById("neverWonTableBody");
       addTeamRow(team, neverWonTableBody);
 
     }else{
-      console.log('${team} si not an NBA team');
+      alert('${team} si not an NBA team');
     }
 
   }
